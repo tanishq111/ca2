@@ -1,0 +1,48 @@
+.bg {
+  background-image: url("../images/indexbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/* carousel */
+@media (max-width: 1028px) {
+  .bg {
+    height: 100vh;
+  }
+}
+
+
+
+/* about */
+
+.border {
+  border: 9px solid #fff;
+  padding: 3%;
+}
+
+.nl-class {
+  background-color: #8BFFFF;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 10px;
+  width: 100px;
+}
+
+.textdecoration {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+
+.heading1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
